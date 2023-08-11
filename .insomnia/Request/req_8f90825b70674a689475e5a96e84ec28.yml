@@ -1,21 +1,22 @@
 _id: req_8f90825b70674a689475e5a96e84ec28
 type: Request
 parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
-modified: 1663679733062
+modified: 1691758523816
 created: 1663679425489
-url: mockbin.org
+url: mockbin.org/echo
 name: Mockbin
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: "{% now 'millis', '' %}"
 parameters: []
-headers: []
-authentication:
-  type: oauth2
-  grantType: authorization_code
-  authorizationUrl: adsfasdf
-  accessTokenUrl: asdfasdfa
-  clientSecret: asdfasdfasdf
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.0-beta.12
+authentication: {}
 metaSortKey: -1663679425489
 isPrivate: false
 settingStoreCookies: true
