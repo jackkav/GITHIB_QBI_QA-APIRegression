@@ -1,0 +1,23 @@
+_id: req_7b946ce7cabf45a49bc79cd14871b15e
+type: Request
+parentId: wrk_d58fc511fbf1495591e9939627cf4b9a
+modified: 1689591460995
+created: 1689591460995
+url: http://localhost:4010/events
+name: New Event Stream
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/event-stream
+authentication: {}
+metaSortKey: -1689591460995
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
